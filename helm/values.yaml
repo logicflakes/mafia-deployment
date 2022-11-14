@@ -1,10 +1,10 @@
 backend:
-  image: registry.relizahub.com/03255341-9390-49e6-98fc-98978b67f799-public/mafia-express@sha256:ab49b50a524d92263dc8bda0f529fccae5e48f717b9e5a60929ef3144b870f21
+  image: registry.relizahub.com/d94ef72b-5c1b-486e-9af9-dfd5740e93d8-private/mafia-express@sha256:01aac2b68c43d711a598798b1c592bd471b3610bde4f8b1bdc679a5d5359834b
   replicaCount: 1
   port: 3000
   targetPort: 3000
 ui:
-  image: registry.relizahub.com/03255341-9390-49e6-98fc-98978b67f799-public/mafia-vue@sha256:afeefe258b74b063608b5bcabe6ed18d7c4f4f7bb22988781f93f7d2dd0aa447
+  image: registry.relizahub.com/d94ef72b-5c1b-486e-9af9-dfd5740e93d8-private/mafia-vue@sha256:dd99cddfac3baf9c0b634c7aa55c9088e6430ab1f4ce43476bd2dbca781c91b4
   replicaCount: 1
   port: 80
   targetPort: 80
